@@ -1,0 +1,26 @@
+#container{
+    border: 1px solid black;
+    display:inline-grid;
+    grid-template-rows:repeat(16,2fr);
+    grid-template-columns:repeat(16,2fr);
+    width:550px;
+    height:550px;
+}
+
+.cell{
+    background-color:white;
+    border:1px solid black;
+    
+}
+#formMain{
+    
+    float:left;
+}
+
+#form-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    align-items:baseline;
+
+}
